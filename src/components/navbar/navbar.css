@@ -1,0 +1,28 @@
+.nav-hover:hover{
+    color: #ED6958 !important;
+}
+.nav-hover{
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+}
+
+.logo{
+    width:200px !important;
+}
+
+.DropDownButton{
+    background-color: #ED6958  !important;
+    color: white !important;
+    text-align: center !important;
+    
+   
+}
+.text-align{
+    text-align: center !important;
+}
+@media screen and (max-width: 600px) {
+    .logo{
+        width:150px !important;
+        margin-left: 7vw;
+    }
+  }

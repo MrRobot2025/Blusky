@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li a{
+    text-decoration: none !important;
+    color: rgba(255,255,255,.55) !important;
+}
+h3 a{
+    text-decoration: none !important;
+    color: rgba(255,255,255) !important;
+}
+
+li{
+    list-style: none;
+}
+
+hr{
+    font-weight: bold !important;
+    background-color: rgba(255, 255, 255, 0.55) !important;
+}
+.imgsize{
+    max-height: 35vw;
+    max-width: 35vw;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.text-white{
+    font-size: smaller;
+}

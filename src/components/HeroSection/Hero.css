@@ -1,0 +1,51 @@
+.blue{
+    color:#323556!important;
+}
+.bgblue{
+    background-color:#ED6958 !important;
+}
+.quotes{
+  color:white!important;
+  padding: 20px 20px;
+  
+}
+.quotes-div
+{
+  margin:-50px !important;
+  padding:0 !important;
+}
+
+.hover:hover{
+    transform:scale(1.1) !important ;
+    color: #0e3e75;
+}
+.height{
+  height: 40px !important;
+  
+}
+.hover{
+    transition:  all 0.3s 0s linear !important;
+}
+@media screen and (min-width: 601px) {
+    .large {
+      font-size: 60px;
+    }
+    .updownmargin{
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .large {
+      font-size: 30px;
+    }
+    .quotes{
+      font-size: 20px;
+    }
+    .updownmargin{
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+  }
