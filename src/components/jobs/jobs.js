@@ -1,4 +1,4 @@
-import { Container ,Image,InputGroup,FormControl} from "react-bootstrap";
+import { Container ,Image} from "react-bootstrap";
 import "../Login/login.css";
 import logo from "../../logo.svg";
 const Jobs =()=>{

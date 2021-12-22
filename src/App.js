@@ -1,8 +1,7 @@
 import './App.css';
 import NavbarComponent from './components/navbar/navbar';
 import Hero from "./components/HeroSection/Hero";
-import FooterPage from "./components/HeroSection/footer";
-import CYP from "../src/components/CompleteYourProfile/CYP"
+import FooterPage from "./components/HeroSection/footer";s
 function App() {
   return (
     <div className="App">

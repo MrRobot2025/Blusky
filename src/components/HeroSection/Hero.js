@@ -1,14 +1,12 @@
 import { Container, Row, Col} from "react-bootstrap";
-import man from "../../static/images/man.gif";
 import building from "../../static/images/building.gif";
 import "../../components/HeroSection/Hero.css";
 import Login from "../Login/login";
 import Signup from "../signup/signup";
 import "./Hero.css";
-import Jobs from "../jobs/jobs";
+
 import { useState ,useEffect } from "react";
 import {
-  BrowserRouter as Router,
   Routes,
   Route,
 } from 'react-router-dom';
